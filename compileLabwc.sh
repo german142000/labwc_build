@@ -23,4 +23,4 @@ rm -rf pythonenv &&
 rm -rf labwc &&
 rm -rf wlroots &&
 apt -y remove python3-full gcc cmake pkg-config hwdata wayland-protocols &&
-apt autoremove && apt clean
+apt -y autoremove && apt clean
