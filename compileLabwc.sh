@@ -23,4 +23,7 @@ rm -rf pythonenv &&
 rm -rf labwc &&
 rm -rf wlroots &&
 apt -y remove python3-full gcc cmake pkg-config hwdata wayland-protocols &&
-apt -y autoremove && apt clean
+apt -y autoremove && apt clean &&
+apt -y remove libwayland-dev libdrm-dev libxkbcommon-dev libpixman-1-dev libegl-dev libgbm-dev libgles-dev libvulkan-dev liblcms2-dev libudev-dev libseat-dev libdisplay-info-dev libliftoff-dev libxcb1-dev libxcb-composite0-dev libcairo2-dev librsvg2-dev &&
+apt -y autoremove && apt clean &&
+apt -y install libwayland-client0 libwayland-egl1 libwayland-cursor0 libwayland-server0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-nouveau2 libdrm-radeon1 libdrm-radeon1 libdrm2 libxkbcommon0 libpixman-1-0 libegl1 libgbm1 libgles1 libgles2 libvulkan1 liblcms2-2 libudev1 libseat1 libdisplay-info2 libliftoff0 libcairo2 librsvg2-common
