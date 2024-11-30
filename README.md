@@ -5,3 +5,5 @@
 ```
 wget https://raw.githubusercontent.com/german142000/labwc_build/refs/heads/main/compileLabwc.sh
 ```
+
+Скрипт необходимо выполнять от имени root в домашней директории root
